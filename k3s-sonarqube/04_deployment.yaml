@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: sonarqube
-          image: parabellyx/sonarqube:0.2
+          image: parabellyx/sonarqube:latest
           imagePullPolicy: "IfNotPresent"
           ports:
             - containerPort: 9000
